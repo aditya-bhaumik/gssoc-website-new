@@ -7,8 +7,13 @@ export default function Registration() {
 
   const handleNextClick = () => {
     if (role) {
-      // Navigate to a common page with the role passed as a query parameter
-      router.push(`/common-page?role=${role}`);
+      if (role === "campus-ambassador") {
+        // Navigate to the common page with the role passed as a query parameter
+        router.push(`/common-page?role=${role}`);
+      } else {
+        // Navigate to the role-specific "Coming Soon" pages
+        router.push(`/roles/${role}`);
+      }
     }
   };
 
