@@ -22,7 +22,7 @@ export default function CampusAmbassador() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-800">
+    <div className="min-h-screen flex items-center justify-center">
       <form
         className="bg-orange-100 dark:bg-black p-8 rounded-lg shadow-md max-w-xl w-full space-y-6 mb-10"
         onSubmit={handleSubmit}

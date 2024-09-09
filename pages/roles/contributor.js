@@ -8,13 +8,10 @@ export default function ContributorRegistration() {
           Coming Soon...
         </h1>
         <p className="text-gray-700 dark:text-gray-300 mb-6">
-          The Contributor registration page is under development. Stay tuned for updates!
+           The Contributor role is coming soon!
         </p>
         <p className="text-gray-700 dark:text-gray-300">
-          For more information, visit the{' '}
-          <Link href="https://gssoc.tech" className="text-orange-500 hover:underline">
-            GSSoC website
-          </Link>.
+        Stay up-to-date with GSSoC by visiting our website regularly for updates on this role.
         </p>
       </div>
     </div>
