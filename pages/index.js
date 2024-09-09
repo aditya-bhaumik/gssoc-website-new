@@ -624,7 +624,7 @@ export default function Home() {
                 title="Start your Journey"
                 content="Participating in GSSoC’24 is an opportunity to upgrade your Github profile. Enrich yourselves to learn, explore, improve, enhance, build connections and become a team player to nourish your skills and personality. Don’t miss a chance to get well-versed with Open-Source and essential tools like Git and Github under the supervision of excellent mentors."
                 btntext="Apply as a Contributor"
-                link="https://swiy.co/contributors"
+                link="/registration"
               />
               {/* Card-2 */}
               <Card
@@ -632,7 +632,7 @@ export default function Home() {
                 title="Lead the Pack"
                 content="Mentors are the experts and take the lead of the open-source project team. They guide the fellow participants at each stage in a road map of the project. They are the backbone of team and are available throughout the summer to review the pull requests and suggest betterment. Apply to be a mentor at Girlscript summer of code and be the foundation of your team."
                 btntext="Apply as a mentor"
-                link="https://bit.ly/gssoc-mentor"
+                link="/registration"
               />
             </div>
           </div>
@@ -648,7 +648,7 @@ export default function Home() {
                 title="Inviting Projects &amp; NGOs"
                 content="If you are an organization with a project idea in mind, a website or an app then this is the golden opportunity to become a part of an awesome community. The budding developers under the guidance of expert mentors will work on your projects and strive to achieve the best version. Apply and let’s collaborate together because Together Everyone Achieves More."
                 btntext="Apply as an Organization/Project Admin"
-                link="https://bit.ly/GSSoC24-Projects"
+                link="/registration"
               />
               {/* Card-4 */}
               <Card
